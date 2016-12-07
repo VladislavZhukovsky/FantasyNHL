@@ -3,8 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FantasyNHL.Domain", "FantasyNHL.Domain", "{0F1E5963-5C56-46AC-940B-DDBF16768462}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FantasyNHL.Web", "FantasyNHL.Web", "{79180A28-4C05-44C0-8FEC-8A180E8AF5F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FantasyNHL.Infrastructure", "FantasyNHL.Infrastructure", "{B0337AAE-29AF-441B-9AB7-2F74CE31F335}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FantasyNHL.Data", "FantasyNHL.Data", "{CF1751A2-CBC3-48AB-922E-D1F4EC2CCD6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FantasyNHL.Tests", "FantasyNHL.Tests", "{C6640302-C45B-4818-A070-B0698051CF25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FantasyNHL.Domain.Entities", "FantasyNHL.Domain.Entities", "{574895B0-B9DB-43C9-9093-A3E70DDCAE54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyNHL.Domain.Entities.Interfaces", "FantasyNHL.Domain\FantasyNHL.Domain.Entities\FantasyNHL.Domain.Entities.Interfaces\FantasyNHL.Domain.Entities.Interfaces.csproj", "{8122D62C-C4DC-452E-A4B4-75A966218325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyNHL.Domain.Entities.Concrete", "FantasyNHL.Domain\FantasyNHL.Domain.Entities\FantasyNHL.Domain.Entities.Concrete\FantasyNHL.Domain.Entities.Concrete.csproj", "{BDDF5242-4847-496D-BD32-102A30DD6421}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8122D62C-C4DC-452E-A4B4-75A966218325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8122D62C-C4DC-452E-A4B4-75A966218325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8122D62C-C4DC-452E-A4B4-75A966218325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8122D62C-C4DC-452E-A4B4-75A966218325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDF5242-4847-496D-BD32-102A30DD6421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDF5242-4847-496D-BD32-102A30DD6421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDF5242-4847-496D-BD32-102A30DD6421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDF5242-4847-496D-BD32-102A30DD6421}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{574895B0-B9DB-43C9-9093-A3E70DDCAE54} = {0F1E5963-5C56-46AC-940B-DDBF16768462}
+		{8122D62C-C4DC-452E-A4B4-75A966218325} = {574895B0-B9DB-43C9-9093-A3E70DDCAE54}
+		{BDDF5242-4847-496D-BD32-102A30DD6421} = {574895B0-B9DB-43C9-9093-A3E70DDCAE54}
 	EndGlobalSection
 EndGlobal

@@ -1,4 +1,5 @@
-﻿using FantasyNHL.Domain.Entities.Interfaces;
+﻿using FantasyNHL.Domain.Entities.Concrete.Teams;
+using FantasyNHL.Domain.Entities.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,13 +8,8 @@ using System.Threading.Tasks;
 
 namespace FantasyNHL.Domain.Entities.Concrete.Players
 {
-    public class Player: Entity<Guid>
+    public class Player: Person
     {
-        public string FirstName { get; set; }
-        public string SecondName { get; set; }
-        public DateTime BirthDate { get; set; }
-        public string BirthPlace { get; set; }
-
         public int Height { get; set; }
         public int Weight { get; set; }
 
